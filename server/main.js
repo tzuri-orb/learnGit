@@ -6,7 +6,7 @@ Meteor.startup(() => {
       require('child_process').execSync('/home/mct/fromhost');
       console.log('did the deed');
     },
-    update() {
+    downgrade() {
       require('child_process').execSync('/home/mct/downgrade');
       console.log('did the dood');
     },
