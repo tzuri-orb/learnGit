@@ -21,5 +21,10 @@ Template.hello.events({
     // instance.counter.set(instance.counter.get() + 1);
     Meteor.call('update')
   },
+  'click .downgrade'(event, instance) {
+    // increment the counter when button is clicked
+    // instance.counter.set(instance.counter.get() + 1);
+    Meteor.call('downgrade')
+  },
+
 });
- 
